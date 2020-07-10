@@ -599,7 +599,31 @@ header .bg {
 }
 
 /*---responsive rules for the body----*/
-
+@media screen and (max-width: 1250px) {
+    .firstsec {
+        margin-top: 30%;
+    }
+    .firstsecin {
+        margin-top: -75%;
+        height: 610px;
+    }
+    .secondsec {
+        width: 100%;
+    }
+    .beam {
+        width: 50%;
+    }
+    .bam {
+        width: 10%;
+        margin-left: 10%;
+    }
+    .band {
+        width: 100%;
+    }
+    .if {
+        margin-left: -5%;
+    }
+}
 @media screen and (max-width: 768px) {
     .firstsec {
         position: absolute;
